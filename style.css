@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    background-color: #FFF455;
+    width: 100%;
+    height: 100vh;
+}
+
+.dark-img{
+    float: right;
+    margin: 15px;
+}
+
+.contents{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    min-width: 90%;
+}
+
+.content-h1{
+    font-size: 48px;
+}
+
+.content-p{
+    font-size: 20px;
+}
+
+.comp-btn, .sug-btn{
+    padding: 80px 60px;
+    font-size: 35px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-weight: 500;
+}
+
+.btn{
+    margin-top: 120px;
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
