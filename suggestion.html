@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/complaint box.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Itim&display=swap" rel="stylesheet">
+    <title>Complaint Box</title>
+</head>
+<body>
+    <div class="main-1">
+        <img class="dark-img" src="src/dark-mode (1).png" alt="Dark mode-icon" title="Dark mode" id="dark" onclick="darkmode()">
+        <div class="contents">
+            <h1 class="content-h1">SUGGESTION</h1>
+        </div>
+            <div class="form-div">
+                <form action="" class="form">
+                    <label for="name" class="label">Name</label>
+                    <input type="text" placeholder="Name (Optional)" id="name"  pattern="[A-Za-z\s]+" title="Please enter only alphabetic characters">
+                    <label for="email" class="label">Email</label>
+                    <input type="email" placeholder="Email" required id="email" pattern="[a-zA-Z0-9._%+-]+@srcas\.ac\.in" title="Please enter an email address ending with @srcas.ac.in">
+                    <label for="complaint-area" class="label">Suggestion Area</label>
+                    <textarea name="Complaint-area" id="complaint-area" placeholder="Enter your Suggestion"></textarea>
+                    <input type="submit" value="Submit" id="submit" onclick="check()">
+                </form>
+            </div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
