@@ -239,3 +239,8 @@ body{
     transform: translate(-50%,-50%);
     display:none;
 }
+
+#span{
+    color: red;
+    display: none;
+}
