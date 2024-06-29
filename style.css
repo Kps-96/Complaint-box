@@ -3,6 +3,10 @@
     padding: 0%;
 }
 
+body{
+    background-color: #FFF455;
+}
+
 .main{
     background-color: #FFF455;
     width: 100%;
@@ -10,6 +14,7 @@
 }
 
 .dark-img{
+    cursor: pointer;
     float: right;
     margin: 15px;
 }
@@ -41,6 +46,7 @@
     font-family: "Itim", cursive;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .btn{
@@ -113,17 +119,61 @@
     }
 
     .contents{
-        padding-top: 250px;
+        /* padding-top: 150px; */
         text-wrap: wrap;
+    }
+
+    .form{
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-div{
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    
+    .label{
+        font-size: 12px;
+        font-family: "Itim", cursive;
+        cursor: pointer;
+    }
+    
+    #name,#email,#submit{
+        padding: 10px;
+        border: 2px solid;
+        border-radius: 10px;
+        margin: 10px 0px;
+        
+    }
+    
+    #complaint-area{
+        padding: 13px;
+        border: 2px solid;
+        height: auto;
+        margin: 10px 0px;
+    }
+    
+    #submit{
+        background-color: black;
+        color: white;
+        font-size:24px ;
+        font-weight: 500;
+        border: none;
+        outline: none;
+        cursor: pointer;
     }
 }
 
-.dark-mode{
-    color: #FFF455;
-    background-color: black;
-}
 
-/* complaint.html */
+/* complaint.html  suggestion.html*/
 
 .main-1{
     background-color: #FFF455;
@@ -151,6 +201,7 @@
 .label{
     font-size: 24px;
     font-family: "Itim", cursive;
+    cursor: pointer;
 }
 
 #name,#email,#submit{
@@ -158,6 +209,7 @@
     border: 2px solid;
     border-radius: 10px;
     margin: 10px 0px;
+    
 }
 
 #complaint-area{
@@ -174,4 +226,5 @@
     font-weight: 500;
     border: none;
     outline: none;
+    cursor: pointer;
 }
