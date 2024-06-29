@@ -22,10 +22,12 @@
 }
 
 .content-h1{
+    font-family: "Akaya Kanadaka", system-ui;
     font-size: 48px;
 }
 
 .content-p{
+    font-family: "Itim", cursive;
     font-size: 20px;
 }
 
@@ -36,6 +38,9 @@
     color: white;
     background-color: black;
     font-weight: 500;
+    font-family: "Itim", cursive;
+    border: none;
+    outline: none;
 }
 
 .btn{
@@ -47,3 +52,69 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+/* media query */
+
+@media screen and (max-width:2500px) {
+    .main{
+        background-color: #FFF455;
+    }
+}
+
+@media  screen and (max-width:768px) {
+
+    .content-h1{
+        font-size: 36px;
+    }
+    
+    .content-p{
+        font-size: 15px;
+    }
+
+    .comp-btn, .sug-btn{
+        padding: 60px 45px;
+        font-size: 23px;
+        border-radius: 20px;
+        color: white;
+        background-color: black;
+        font-weight: 500;
+    }
+}
+
+@media  screen and (max-width:440px) {
+
+    .content-h1{
+        font-size: 30px;
+    }
+    
+    .content-p{
+        font-size: 15px;
+    }
+
+    .comp-btn, .sug-btn{
+
+        padding: 30px 120px;
+        font-size: 15px;
+        border-radius: 20px;
+        color: white;
+        background-color: black;
+        font-weight: 500;
+        margin-bottom: 35px;
+    }
+    .btn{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+    }
+
+    .contents{
+        padding-top: 250px;
+        text-wrap: wrap;
+    }
+}
+
