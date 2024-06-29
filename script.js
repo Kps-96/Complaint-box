@@ -11,4 +11,13 @@ function check(){
     if ("" === val) {
         alert("Text area empty ! Please enter your words")
     }
+
+//     success();
+
+//     setInterval(function success(){
+//         let img = document.getElementById("submitted-img");
+//         img.style.display = "block";
+//     }, 2000);
 }
+
+

@@ -5,6 +5,7 @@
 
 body{
     background-color: #FFF455;
+    position: relative;
 }
 
 .main{
@@ -227,4 +228,14 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.submitted-img{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display:none;
 }
